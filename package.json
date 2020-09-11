@@ -1,0 +1,21 @@
+{
+  "name": "authorize-net-lab",
+  "version": "1.0.0",
+  "description": "Test run authorize net",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "keywords": [
+    "Authorize Net",
+    "node"
+  ],
+  "author": "kalyan",
+  "dependencies": {
+    "express": "4.17.0",
+    "http": "0.0.1-security",
+    "nodemon": "2.0.4",
+    "authorizenet": "1.0.7"
+  }
+}
